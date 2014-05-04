@@ -3,10 +3,21 @@ html {
   color: #eee; }
 
 body {
+  margin: 0;
   font-family: Helvetica, sans-serif; }
 
 .wrapper {
   overflow-x: hidden; }
+
+.masthead {
+  text-align: center; }
+
+
+.logo {
+  white-space: nowrap;
+  background: #eee;
+  color: #333;
+  padding: 0.1em 0.3em; }
 
 img {
   max-width: 100%; }
