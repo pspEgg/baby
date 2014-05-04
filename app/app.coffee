@@ -15,7 +15,8 @@ app.use multer
 app.use(express.static(path.join(__dirname, '../build')))
 app.use(express.static(path.join(__dirname, '../photos')))
 
-app.locals.devMode = true
+if ('development' == app.get('env'))
+  app.locals.devMode = true
 
 photos = require './controllers/photos'
 app.route('/')
