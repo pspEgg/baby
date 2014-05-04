@@ -1,2 +1,18 @@
+html {
+  background: #333;
+  color: #eee; }
+
+body {
+  font-family: Helvetica, sans-serif; }
+
+.wrapper {
+  overflow-x: hidden; }
+
 img {
-  width: 100%; }
+  max-width: 100%; }
+
+.photo-article p {
+  display: block; }
+
+.uploader-wrapper input {
+  display: block; }

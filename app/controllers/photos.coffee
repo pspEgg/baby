@@ -4,7 +4,7 @@ Photo.loadDatabase()
 
 exports.list = (req, res) ->
   Photo.find {}, (err, docs) ->
-    console.log JSON.stringify docs
+    # console.log JSON.stringify docs
     res.render 'list',
       photos: docs
 
