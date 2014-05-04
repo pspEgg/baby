@@ -1,4 +1,5 @@
 Photo = require('../models/Photo')
+# Load Database into memory
 Photo.loadDatabase()
 
 exports.list = (req, res) ->
