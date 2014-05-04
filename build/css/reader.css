@@ -20,10 +20,13 @@ body {
   padding: 0.1em 0.3em; }
 
 img {
-  max-width: 100%; }
+  max-width: 100%;
+  margin: 0 auto; }
 
-.photo-article p {
-  display: block; }
+.photo-article {
+  margin: 1em 0 5em 0; }
+  .photo-article img {
+    display: block; }
 
 .uploader-wrapper {
   padding: 0 0.5em; }
