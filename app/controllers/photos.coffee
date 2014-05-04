@@ -1,4 +1,5 @@
-Photo = require '../models/Photo'
+Photo = require('../models/Photo')
+Photo.loadDatabase()
 
 exports.list = (req, res) ->
   Photo.find {}, (err, docs) ->
