@@ -25,5 +25,11 @@ img {
 .photo-article p {
   display: block; }
 
-.uploader-wrapper input {
-  display: block; }
+.uploader-wrapper {
+  padding: 0 0.5em; }
+  .uploader-wrapper input {
+    display: block;
+    margin-top: 1em; }
+
+.up-title {
+  font-weight: 800; }

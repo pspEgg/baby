@@ -1,5 +1,11 @@
 .uploader-wrapper {
+  padding: 0 0.5em;
+  // text-align: center;
   input {
     display: block;
+    margin-top: 1em;
   }
+}
+.up-title {
+  font-weight: 800;
 }
