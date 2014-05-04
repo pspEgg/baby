@@ -4,4 +4,4 @@
 2. Share link with family members
 3. Everyone can upload photos to it.
 
-[^1]: http://digitalocean.com>, http://linode.com etc.
+[^1]: http://digitalocean.com, http://linode.com etc.
