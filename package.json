@@ -1,0 +1,31 @@
+{
+  "name": "Baby",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dan Liu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.1.1",
+    "jade": "^1.3.1",
+    "pouchdb": "^2.2.0",
+    "nedb": "^0.10.5",
+    "multer": "0.0.6"
+  },
+  "devDependencies": {
+    "gulp-rename": "^1.2.0",
+    "coffeeify": "^0.6.0",
+    "coffee-script": "^1.7.1",
+    "gulp-livereload": "^1.3.1",
+    "gulp": "^3.6.2",
+    "gulp-autoprefixer": "0.0.7",
+    "gulp-plumber": "^0.6.1",
+    "gulp-watch": "^0.6.4",
+    "gulp-sass": "^0.7.1",
+    "gulp-nodemon": "^1.0.2",
+    "gulp-browserify": "^0.5.0"
+  }
+}

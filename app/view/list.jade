@@ -1,0 +1,17 @@
+extends wrapper
+
+block title
+  title 照片流
+
+block content
+
+
+  div.uploader-wrapper
+    h2 上传照片
+    form(enctype="multipart/form-data" method="post" action="/")
+      input(type="file" name="photo")
+      input(type="submit")
+
+  
+  each photo in photos
+    img(src=photo.filename)

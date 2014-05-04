@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    block title
+      title= title
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width; initial-scale=1.0")
+    link(rel="stylesheet" href="/css/reader.css")
+  body
+    .wrapper  
+      block content
+  
+    // script(type="text/javascript" src="/js/jquery.js")
+    script(type="text/javascript" src="/js/reader.js")
+    //- for per-page custom scripts 
+    block script 
+
+    if devMode
+      script(type="text/javascript").
+        document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
